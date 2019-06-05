@@ -1,0 +1,136 @@
+.kit-theme-default .layui-layout-admin .layui-body {
+    bottom: 0px;
+}
+
+.layui-body {
+    left: 0px;
+}
+
+.layui-card {
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.0);
+    border-radius: 6px;
+}
+
+.layui-card-header {
+    border-bottom: 1px solid #eee;
+}
+
+.layui-header .layui-nav .layui-this:after, .layui-layout-admin .layui-header .layui-nav-bar {
+    top: 0 !important;
+    bottom: auto;
+    height: 3px;
+}
+
+.layadmin-pagetabs .layui-tab-title li:first-child .layui-tab-close, .layadmin-tabs-select.layui-nav .layui-nav-bar, .layadmin-tabs-select.layui-nav .layui-nav-more {
+    display: none
+}
+
+.layui-input, .layui-select, .layui-textarea, .layui-btn {
+    border-radius: 4px;
+}
+
+.kit-theme-default .layui-layout-admin .layui-header .layui-logo-brand {
+    padding-left: 0px;
+}
+
+.kit-theme-default .layui-layout-admin .layui-header .layui-logo-brand a {
+    padding-left: 0px;
+}
+
+.kit-theme-default .layui-layout-admin .layui-header .layui-logo {
+    text-align: center;
+}
+
+.kit-theme-default .layui-layout-admin .layui-header .layui-layout-left .kit-nav {
+    line-height: 49px;
+    background-color: #373d41;
+}
+
+/*左侧搜索栏*/
+.left-panel {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.left-search {
+    padding-bottom: 10px;
+}
+
+.left-search input {
+    display: inline;
+    width: 75%;
+}
+
+.left-search i {
+    font-size: 22px;
+    margin-left: 4px;
+}
+
+.left-panel .left-search .layui-btn-group .layui-btn-sm {
+    padding: 0px 5px;
+}
+
+/** 左侧单列表格样式 */
+.left-panel .layui-table tbody tr:hover {
+    background-color: white!important;
+}
+
+.left-panel .layui-table tbody tr div.select,
+.left-panel .layui-table tbody tr div:hover {
+    color: cornflowerblue;
+    font-size: 15px;
+}
+
+.left-panel .layui-table-view {
+    margin: 0px;
+}
+
+/*右侧面板*/
+.right-panel {
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+/*右侧面板*/
+.center-panel {
+    padding: 0px 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.layui-input-block .eleTree{
+    width: 350px;
+    height: 200px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.layui-input-block .select-tree{
+    overflow-y: auto;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top:100%;
+    background-color: #fff;
+    z-index: 100;
+}
+
+/*必填项的红*号*/
+.layui-form-label span.required {
+    color: red;
+    /*text-align: center;*/
+}
+
+.layui-textarea {
+    min-height: 0px;
+}
+
+.layui-form-label {
+    padding: 9px 0px;
+    width: 100px;
+}
